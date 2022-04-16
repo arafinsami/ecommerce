@@ -1,0 +1,7 @@
+/home/sami/projects/eclipse/ecommerce/src/main/java/com/ecommerce/service/UserService.java
+/home/sami/projects/eclipse/ecommerce/src/main/java/com/ecommerce/entity/User.java
+/home/sami/projects/eclipse/ecommerce/src/main/java/com/ecommerce/entity/Todo.java
+/home/sami/projects/eclipse/ecommerce/src/main/java/com/ecommerce/dao/UserDao.java
+/home/sami/projects/eclipse/ecommerce/src/main/java/com/ecommerce/utils/JPAUtil.java
+/home/sami/projects/eclipse/ecommerce/src/main/java/com/ecommerce/controller/UserController.java
+/home/sami/projects/eclipse/ecommerce/src/main/java/com/ecommerce/helper/UserHelper.java
