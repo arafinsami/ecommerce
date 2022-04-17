@@ -2,13 +2,13 @@ package com.ecommerce.service;
 
 import java.util.List;
 
-import javax.annotation.ManagedBean;
+import javax.enterprise.context.Dependent;
 import javax.inject.Inject;
 
 import com.ecommerce.dao.UserDao;
 import com.ecommerce.entity.User;
 
-@ManagedBean
+@Dependent
 public class UserService {
 
 	@Inject

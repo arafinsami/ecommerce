@@ -3,7 +3,7 @@ package com.ecommerce.helper;
 import java.io.IOException;
 import java.util.List;
 
-import javax.annotation.ManagedBean;
+import javax.enterprise.context.Dependent;
 import javax.inject.Inject;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.ecommerce.entity.User;
 import com.ecommerce.service.UserService;
 
-@ManagedBean
+@Dependent
 public class UserHelper {
 
 	@Inject

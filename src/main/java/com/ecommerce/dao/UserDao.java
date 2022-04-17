@@ -2,14 +2,14 @@ package com.ecommerce.dao;
 
 import java.util.List;
 
-import javax.annotation.ManagedBean;
+import javax.enterprise.context.Dependent;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
 import com.ecommerce.entity.User;
 import com.ecommerce.utils.JPAUtil;
 
-@ManagedBean
+@Dependent
 public class UserDao {
 
 	public List<User> getAllUser() {
